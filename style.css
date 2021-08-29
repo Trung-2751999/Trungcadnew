@@ -1,0 +1,299 @@
+body{
+	font-family: arial;
+	margin: 0;
+}
+
+.logo-bar{
+	width: 100vw;
+	height: 5.2vw;
+	background-color: #178CF8;
+	position: absolute;
+	top: 0;
+	z-index: 100;
+}
+.logo{
+	float: left;
+	height: 5.2vw;
+	width: 10vw;
+	background-color: #C4C4C4;
+	margin-left: 3.47vw;
+}
+.search{
+	margin-left: 2.8vw;
+	background-color: white;
+	width: 20.13vw;
+	height: 2vw;
+	float: left;
+	margin-top: 1.59vw;
+}
+.search-button{
+	float: right;
+	width: 3.47vw;
+	background-color: #519C59;
+	height: 2vw;
+}
+.do-an{
+	float: left;
+	background-color: #178CF8;
+	margin-left: 0.3vw;
+	width: 13.8vw;
+	height: 3.2vw;
+	text-align: center;
+	padding-top: 2vw;
+	cursor: pointer;
+	color: white;
+	font-weight: bold;
+	font-size: 1.11vw;
+}
+.do-an:hover{
+	background-color: #1A203F;
+}
+.dang-nhap{
+	margin-left: 5.4vw;
+	float: left;
+	margin-top: 1.8vw;
+	font-weight: bold;
+	font-size: 1.11vw;
+	margin-right: 0.3vw;
+}
+.dang-nhap:hover{
+	color: white;
+	cursor: pointer;
+}
+.dang-ki {
+	margin-top: 1.8vw;
+	font-weight: bold;
+	font-size: 1.11vw;
+}
+.dang-ki a{
+	color: black;
+	text-decoration: none;
+}
+.dang-ki a:hover{
+	color: white;
+}
+.header{
+	margin-left:3.47vw;
+	margin-top: 6vw;
+	margin-left:3.47vw;
+	width: 93.47vw;
+}
+.slider{
+	width: 56.18vw;
+	height: 29.37vw;
+	background-color: #C4C4C4;
+	float: left;
+}
+.image-right{
+	float: left;
+	margin-left: 2.84vw;
+	width: 34.44vw;
+	height: 29.37vw;
+}
+.image-right-1{
+	width: 34.44vw;
+	height: 13.81vw;
+	background-color:#DF9B9B;
+}
+.image-right-2{
+	width: 34.44vw;
+	height: 13.81vw;
+	margin-top: 1.73vw;
+	background-color:#DF9B9B;
+}
+.line{
+	position: absolute;
+	margin-left: 3.47vw;
+	height: 0.3vw;
+	width: 93.47vw;
+	background-color: #EBB6E6;
+	margin-top: 31.5vw;
+}
+.con-product{
+	z-index: 0;
+	position: absolute;
+	width: 100vw;
+	margin-top: 31.25vw;
+	margin-bottom: 31.25vw;
+}
+.product{
+	position: relative;
+	width: 20.83vw;
+	height: 28.05vw;
+	background-color: #c4c4c4;
+	margin-left: 3.47vw;
+	float: left;
+	margin-top: 3.47vw;
+}
+.name-product{
+	width: 100%;
+	height: 5.06vw;
+	background-color: #ACF891;
+	margin-top: 17.91vw;
+}
+.des{
+	width: 100%;
+	height: 5.06vw;
+	background-color: #F89191;
+	margin-bottom: 0;
+}
+.dowload-number{
+	position: absolute;
+	margin-left: 1.04vw;
+	margin-top: 0.7vw;
+	width: 8.4vw;
+	height: 1.59vw;
+	font-size: 1.1vw;
+}
+.update-time{
+	position: absolute;
+	margin-left: 1.04vw;
+	margin-top: 2.56vw;
+	width: 8.4vw;
+	height: 1.59vw;
+	font-size: 1.1vw;
+}
+.dowload-button{
+	float: right;
+	padding: 0.35vw 1.04vw;
+	background-color: #F1EB5D;
+	font-size: 1vw;
+	font-weight: bold;
+	border-radius: 0.55vw;
+	margin-right: 2.2vw;
+	margin-top: 1.5vw;
+	color: #E9852A;
+}
+.footer{
+	position: absolute;
+    width: 100%;
+    margin-top: 3.47vw;
+    line-height: 3vw;
+    font-size:1.1vw;
+}
+.dia-chi-left{
+	float: left;
+	margin-left: 3.47vw;
+}
+.copy-right{
+	float: right;
+	margin-right: 3.47vw;
+}
+.background-dangnhap{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	background-color: #c4c4c4;
+}
+.form{
+	width: 41.18vw;
+	height: 32.63vw;
+	margin-left: 30.2vw;
+	margin-top: 6.59vw;
+	border: 0.069vw solid #42C6E3;
+	border-radius: 2.78vw;
+	background-color: white;
+}
+.tieu-de{
+	text-align: center;
+	padding: 1.67vw 0 1.67vw;
+	background-color: rgba(4, 224, 0, 0.6);
+	border-radius: 2.78vw 2.78vw 0 0;
+	font-size: 2.08vw;
+	font-weight: bold;
+}
+.close-dang-nhap{
+	float: right;
+	margin-right: 5%;
+	margin-top: -6.25%;
+	color: cyan;
+}
+.close-dang-nhap:hover{
+	color: red;
+	cursor: pointer;
+}
+
+.content-dang-nhap{
+	margin: 3.33vw 5vw;
+}
+.ten-dang-nhap input{
+	width:29.66vw;
+	height: 4.16vw;
+	border-radius: 2.78vw;
+	border: 0.069vw solid #42C6E3;
+	outline: none;
+	padding-left: 1.52vw;
+	font-size: 2.08vw;
+}
+.mat-khau input{
+	margin-top: 3.33vw; 
+	width:29.66vw;
+	height: 4.16vw;
+	border-radius: 2.78vw;
+	border: 0.069vw solid #42C6E3;
+	outline: none;
+	padding-left: 1.52vw;
+	font-size: 2.08vw;
+}
+input:focus{
+	background-color: #c4c4c4;
+}
+.submit-dangnhap input{
+	float: left;
+	margin-top: 3.33vw;
+	width: 12.43vw;
+	height: 3.75vw;
+	font-size: 1.11vw;
+	outline: none;
+	background-color: #30D2E8;
+	border: none;
+	font-weight: bold;
+}
+.dang-nhap-right{
+	float: left;
+	margin-top: 3.33vw;
+	text-align: center;
+	margin-left: 2.2vw;
+	font-size: 1.1vw;
+	line-height: 2vw;
+}
+.form-dang-ki{
+	background-color: white;
+	width: 31.25vw;
+	border-radius: 2.78vw;
+	border: 0.069vw solid #42C6E3;
+	margin-left: 38.19vw;
+	margin-top: 6.9vw;
+	background-color: rgba(196, 196, 196, .5);
+}
+.tieu-de-dang-ki{
+	height: 5.48vw;
+	width: 100%;
+	background-color: #4EDCEF;
+	border-radius: 2.78vw 2.78vw 0 0;
+}
+.input-dangki input{
+	width: 24.31vw;
+	height: 3.47vw;
+	margin:1vw 2.63vw;
+	outline: none;
+	border-radius: 2.78vw;
+	border:0.069vw solid #42C6E3;
+	padding-left: 1.52vw;
+	font-size: 1.11vw;
+}
+.dangki-submit input{
+	margin:1vw 8.89vw 2.78vw 8.89vw;
+	width: 13.61vw;
+	height: 3.47vw;
+	background-color: #519C59;
+	color: white;
+	outline: none;
+	border: none;
+	font-size: 1.5vw;
+}
+
+
+
